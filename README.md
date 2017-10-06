@@ -7,5 +7,15 @@ This repo is used to build a Dockerhub image of the cfn_nag tool.
 
 ### Usage
 
-   docker run -t -v $(pwd):/tmp dougtoppin/cfn_nag:1.0  -i cloudformation_template_file
+Run this using the image like this:
+
+    docker run -t -v $(pwd):/tmp dougtoppin/cfn_nag:1.0  -i cloudformation_template_file
+
+Make it easier by setting up a shell alias like this:
+
+    alias cfn_nag="docker run -t -v $(pwd):/tmp dougtoppin/cfn_nag:1.0 "
+
+Once the alias has been created use it like this:
+
+    cfn_nag -i cloudformation_template_file
 
