@@ -21,5 +21,5 @@ Once the alias has been created use it like this:
 
 ### Details on the tool
 
-    [https://github.com/stelligent/cfn_nag](https://github.com/stelligent/cfn_nag)
+More on the tool at [https://github.com/stelligent/cfn_nag](https://github.com/stelligent/cfn_nag)
 
